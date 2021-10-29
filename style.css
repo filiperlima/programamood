@@ -307,7 +307,7 @@ nav.show div.icon-close{
   margin-right: 1.5rem;
 }
 
-/* SERVICES */
+/* BENEFITS */
 
 .cards.grid {
   gap: 1.5rem;
@@ -574,7 +574,7 @@ footer .social a:hover {
     grid-auto-flow: column;
   }
 
-  /* services */
+  /* BENEFITS */
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
