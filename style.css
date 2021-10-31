@@ -266,7 +266,8 @@ nav.show div.icon-close{
   overflow: hidden;
 }
 
-#home .container {
+#home .container,
+#home .container .text {
   margin: 0;
 }
 
