@@ -266,8 +266,7 @@ nav.show div.icon-close{
   overflow: hidden;
 }
 
-#home .container,
-#home .container .text {
+#home .container {
   margin: 0;
 }
 
@@ -554,7 +553,8 @@ footer .social a:hover {
 
   /* home */
 
-  #home .container {
+  #home .container,
+  #home .container .text {
     grid-auto-flow: column;
     justify-content: space-between;
     margin: 0 auto;
