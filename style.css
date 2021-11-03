@@ -531,33 +531,6 @@ footer .social a:hover {
     height: 3.125rem;
   }
 
-  /* navigation */
-
-  nav .menu {
-    opacity: 1;
-    visibility: visible;
-    top: 0;
-  }
-
-  nav .menu ul {
-    display: flex;
-    gap: 2rem;
-  }
-
-  nav .menu ul li a.title {
-    font: 400 1rem var(--body-font);
-    -webkit-font-smoothing: antialiased;
-  }
-
-  nav ul li a.title.active {
-    font-weight: bold;
-    -webkit-font-smoothing: auto;
-  }
-  
-  nav .icon-menu {
-    display: none;
-  }
-
   /* layout */
 
   main {
