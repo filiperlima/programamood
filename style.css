@@ -145,6 +145,13 @@ body {
 
 /* LOGO */
 
+.logo {
+  opacity: 0;
+  visibility: hidden;
+  
+  transition: 0.2s;
+}
+
 .logo img{
   height: 4rem;
   width: auto;
@@ -153,6 +160,12 @@ body {
 .logo-alt img{
   height: 4rem;
   width: auto;
+}
+
+/* Mostrar logo */
+.logo.show {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* NAVIGATION */
@@ -232,7 +245,7 @@ nav.show .menu ul {
 }
 
 nav.show ul.grid {
-  gap: 4rem;
+  gap: 2.5rem;
 }
 
 /* TOOGLE MENU */

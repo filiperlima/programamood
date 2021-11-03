@@ -30,6 +30,18 @@ function changeHeaderWhenScroll() {
   }
 }
 
+/* revelar a logo se altura maior que #home */
+const logo = document.querySelector('.logo')
+function revealLogoWhenScroll() {
+  if (window.scrollY >= 300) {
+    // scroll é a maior que a altura do header
+    logo.classList.add('show')
+  } else {
+    // menor que a altura do header
+    logo.classList.remove('show')
+  }
+}
+
 /* Testimonials carousel slider swiper */
 const swiper = new Swiper('.swiper', {
   slidersPerView: 1,
@@ -103,6 +115,7 @@ function activateMenuAtCurrentSection() {
 /* Quando rolar */
 window.addEventListener('scroll', function () {
   changeHeaderWhenScroll()
+  revealLogoWhenScroll()
   backToTop()
   activateMenuAtCurrentSection()
 })
