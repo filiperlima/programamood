@@ -288,26 +288,26 @@ nav.show div.icon-close{
   border-radius: 0.25rem;
 }
 
-/* ABOUT */
+/* who-for */
 
-#about {
+#who-for {
   background: white;
 }
 
-#about .container{
+#who-for .container{
   margin: 0;
 }
 
-#about .image img {
+#who-for .image img {
   border-radius: 0.25rem;
 }
 
-#about .text {
+#who-for .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
-/* BENEFITS */
+/* WHY-SO-COMPLETE */
 
 .cards.grid {
   gap: 1.5rem;
@@ -558,6 +558,7 @@ footer .social a:hover {
     grid-auto-flow: column;
     justify-content: space-between;
     margin: 0 auto;
+    align-items: center;
   }
 
   #home .image {
@@ -570,13 +571,13 @@ footer .social a:hover {
     text-align: left;
   }
 
-  /* about */
-  #about .container {
+  /* who-for */
+  #who-for .container {
     margin: 0 auto;
     grid-auto-flow: column;
   }
 
-  /* BENEFITS */
+  /* WHY-SO-COMPLETE */
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
