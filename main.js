@@ -72,7 +72,6 @@ scrollReveal.reveal(
   #testimonials header, #testimonials .testimonials,
   #why-so-complete header, #why-so-complete .cards,
   #details header, #details .card, #details h2,
-  #contact .title, #contact .links,
   footer .brand
 `,
   { interval: 100 }

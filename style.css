@@ -369,6 +369,12 @@ nav.show div.icon-close{
   margin-right: 0;
 }
 
+#testimonials .container a.button {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+}
+
 #testimonials header {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
