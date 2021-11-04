@@ -68,10 +68,10 @@ const scrollReveal = ScrollReveal({
 
 scrollReveal.reveal(
   `#home .image, #home .text,
-  #who-for .text, #who-for .button,
+  #who-for .header, #who-for h2, #who-for .text, #who-for .button,
   #testimonials header, #testimonials .testimonials,
   #why-so-complete header, #why-so-complete .cards, #why-so-complete .button,
-  #details .text,
+  #details header, #details .card, #details h2, #details a,
   #contact .text, #contact .links, #contact .button,
   footer .brand, footer .social
 `,

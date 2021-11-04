@@ -317,7 +317,8 @@ nav.show div.icon-close{
   border-radius: 0.25rem;
 }
 
-#who-for .text {
+#who-for .text,
+#who-for h2 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -326,6 +327,12 @@ nav.show div.icon-close{
   font: 700 1.75rem serif;
   color: var(--base-color);
   margin-right: 0.75rem;
+}
+
+#who-for .card,
+#details .card {
+  width: fit-content;
+  margin: auto;
 }
 
 /* WHY-SO-COMPLETE */
@@ -364,9 +371,16 @@ nav.show div.icon-close{
   margin: 0;
 }
 
-#details .text {
+#details .text,
+#details header h2.title {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+}
+
+#details span {
+  font: 700 1.25rem serif;
+  color: var(--base-color);
+  margin-right: 0.5rem;
 }
 
 /* TESTIMONIALS */
@@ -591,11 +605,6 @@ footer .social a:hover {
     text-align: center;
   }
 
-  #who-for .card {
-    width: fit-content;
-    margin: auto;
-  }
-
   /* WHY-SO-COMPLETE */
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
@@ -609,6 +618,12 @@ footer .social a:hover {
   /* details */
   #details .container {
     margin: 0 auto;
+  }
+
+  #details h2.title {
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
   }
   
   /* testimonials */
