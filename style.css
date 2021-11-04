@@ -318,7 +318,6 @@ nav.show div.icon-close{
 #who-for .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  text-align: center;
 }
 
 /* WHY-SO-COMPLETE */
@@ -345,6 +344,21 @@ nav.show div.icon-close{
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
+}
+
+/* DETAILS */
+
+#details {
+  background: white;
+}
+
+#details .container{
+  margin: 0;
+}
+
+#details .text {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 /* TESTIMONIALS */
@@ -572,6 +586,11 @@ footer .social a:hover {
   .card {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  /* details */
+  #details .container {
+    margin: 0 auto;
   }
   
   /* testimonials */
