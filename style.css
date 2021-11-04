@@ -62,6 +62,8 @@ body {
 
 .button {
   background-color: var(--base-color);
+  width: fit-content;
+  margin: auto;
   color: var(--text-color-light);
   height: 3.5rem;
   display: inline-flex;
@@ -334,7 +336,7 @@ nav.show div.icon-close{
 
 .card {
   padding: 3.625rem 2rem;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
   border-bottom: .25rem solid var(--base-color);
   border-radius: .25rem .25rem 0 0;
   text-align: center;
@@ -385,7 +387,7 @@ nav.show div.icon-close{
 
 #testimonials blockquote {
   padding: 2rem;
-  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
   border-radius: 0.25rem;
 }
 
@@ -594,11 +596,6 @@ footer .social a:hover {
     margin: auto;
   }
 
-  #who-for .button {
-    width: fit-content;
-    margin: auto;
-  }
-
   /* WHY-SO-COMPLETE */
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
@@ -607,11 +604,6 @@ footer .social a:hover {
   .card {
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-
-  #why-so-complete .button {
-    width: fit-content;
-    margin: auto;
   }
 
   /* details */

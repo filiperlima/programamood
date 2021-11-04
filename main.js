@@ -68,10 +68,11 @@ const scrollReveal = ScrollReveal({
 
 scrollReveal.reveal(
   `#home .image, #home .text,
-  #who-for .image, #who-for .text,
+  #who-for .text, #who-for .button,
   #testimonials header, #testimonials .testimonials,
-  #why-so-complete header, #why-so-complete .card,
-  #contact .text, #contact .links,
+  #why-so-complete header, #why-so-complete .cards, #why-so-complete .button,
+  #details .text,
+  #contact .text, #contact .links, #contact .button,
   footer .brand, footer .social
 `,
   { interval: 100 }
