@@ -645,6 +645,11 @@ footer .social a:hover {
     grid-template-columns: 1fr 1fr;
   }
 
+  #mini-bio img {
+    width: 15rem;
+    height: 15rem;
+  }
+
   /* contact */
   #contact .container{
     grid-auto-flow: column;
