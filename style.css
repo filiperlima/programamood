@@ -335,7 +335,8 @@ nav.show div.icon-close{
   text-align: center;
 }
 
-.card i {
+.card i,
+.card img {
   display: block;
   margin-bottom: 1.5rem;
   font-size: 5rem;
