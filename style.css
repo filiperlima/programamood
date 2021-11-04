@@ -427,8 +427,15 @@ nav.show div.icon-close{
   background: var(--base-color);
 }
 
-/* CONTACT */
+/* HOW-TO */
+#how-to h2 {
+  text-align: center;
+}
 
+#how-to .card {
+  width: fit-content;
+  margin: auto;
+}
 
 /* CONTACT */
 #contact .grid {
