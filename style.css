@@ -318,7 +318,7 @@ nav.show div.icon-close{
 }
 
 #who-for .text,
-#who-for h2 {
+#who-for h2.title {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
