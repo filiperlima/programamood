@@ -320,6 +320,12 @@ nav.show div.icon-close{
   margin-right: 1.5rem;
 }
 
+#who-for span {
+  font: 700 1.75rem serif;
+  color: var(--base-color);
+  margin-right: 0.75rem;
+}
+
 /* WHY-SO-COMPLETE */
 
 .cards.grid {
@@ -575,7 +581,22 @@ footer .social a:hover {
   /* who-for */
   #who-for .container {
     margin: 0 auto;
-    grid-auto-flow: column;
+  }
+
+  #who-for .text {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  #who-for .card {
+    width: fit-content;
+    margin: auto;
+  }
+
+  #who-for .button {
+    width: fit-content;
+    margin: auto;
   }
 
   /* WHY-SO-COMPLETE */
@@ -586,6 +607,11 @@ footer .social a:hover {
   .card {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+
+  #why-so-complete .button {
+    width: fit-content;
+    margin: auto;
   }
 
   /* details */
