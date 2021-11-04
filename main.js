@@ -70,9 +70,10 @@ scrollReveal.reveal(
   `#home .image, #home .text,
   #who-for .header, #who-for h2, #who-for .text,
   #testimonials header, #testimonials .testimonials,
-  #why-so-complete header, #why-so-complete .cards,
+  #why-so-complete header,
   #details header, #details .card, #details h2,
   #how-to header, #how-to .text, #how-to .card, #how-to h2,
+  #mini-bio .cards,  #mini-bio .card,
   footer .brand
 `,
   { interval: 100 }

@@ -428,13 +428,27 @@ nav.show div.icon-close{
 }
 
 /* HOW-TO */
-#how-to h2 {
-  text-align: center;
+
+#how-to header h2 {
+  text-align: left;
 }
 
 #how-to .card {
   width: fit-content;
   margin: auto;
+}
+
+#how-to .text h2 {
+  text-align: center;
+}
+
+/* MINI-BIO */
+#mini-bio img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  clip-path: circle();
+  margin-bottom: 1rem;
 }
 
 /* CONTACT */
@@ -599,7 +613,8 @@ footer .social a:hover {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .card {
+  .card,  
+  #mini-bio .card {
     padding-left: 3rem;
     padding-right: 3rem;
   }
@@ -619,6 +634,15 @@ footer .social a:hover {
   #testimonials .container{
     margin-left: auto;
     margin-right: auto;
+  }
+  /* how-to */
+  #how-to h2 {
+    text-align: center;
+  }
+
+  /* mini-bio */
+  #mini-bio .cards {
+    grid-template-columns: 1fr 1fr;
   }
 
   /* contact */
