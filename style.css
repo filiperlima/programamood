@@ -444,8 +444,8 @@ nav.show div.icon-close{
 
 /* MINI-BIO */
 #mini-bio img {
-  width: 20rem;
-  height: 20rem;
+  width: 10rem;
+  height: 10rem;
   object-fit: cover;
   clip-path: circle();
   margin-bottom: 1rem;
